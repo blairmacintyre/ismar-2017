@@ -4538,7 +4538,7 @@
 				var currentX = event.changedTouches[0].clientX;
 				var currentY = event.changedTouches[0].clientY;
 
-				if (touch.startX === currentX && touch.startY === currentY) {
+				if ((touch.startY < (window.innerHeight - 20)) && touch.startX === currentX && touch.startY === currentY) {
 					if (window.touchTapHandler) {
 						window.touchTapHandler(currentX, currentY);
 						event.preventDefault();
@@ -4547,7 +4547,6 @@
 			}
 		}
 		touch.captured = false;
-		
 	}
 
 	/**

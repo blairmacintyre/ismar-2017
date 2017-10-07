@@ -5,22 +5,47 @@
 Reveal.addEventListener( 'ready', function( event ) {
 	// event.currentSlide, event.indexh, event.indexv
 
-    if (!document.body.classList.contains("xrslide")) {
-        document.body.style.backgroundColor = transparent;
+    if (document.documentElement.classList.contains("xrslide")) {
+        document.body.style.backgroundColor = "transparent";
     } else {
         document.body.style.backgroundColor = "black";        
     }
 
     var xrSession = document.querySelector('.webxr-sessions');
+    if (xrSession) {
+        xrSession.style.visibility = "hidden";        
+    }
     var xrReality = document.querySelector('.webxr-realities');
-    xrSession.style.visibility = "hidden";
-    xrReality.style.visibility = "hidden";
+    if (xrReality) {
+        xrReality.style.visibility = "hidden";        
+    }
 } );
 
 
 // new slide
 Reveal.addEventListener( 'slidechanged', function( event ) {
-	// event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+
+    var xrSession = document.querySelector('.webxr-sessions');
+    var xrReality = document.querySelector('.webxr-realities');
+
+    if (document.documentElement.classList.contains("xrslide")) {
+        document.body.style.backgroundColor = "transparent";
+        if (xrSession) {
+            xrSession.style.visibility = "visible";
+        }
+        if (xrReality) {
+            xrReality.style.visibility = "visible";
+        }
+    } else {
+        document.body.style.backgroundColor = "black";
+        if (xrSession) {
+            xrSession.style.visibility = "hidden";
+        }
+        if (xrReality) {
+            xrReality.style.visibility = "hidden";
+        }
+    }  
 } );
 
 // If you set ``data-state="somestate"`` on a slide ``<section>``, "somestate" will 
@@ -28,19 +53,19 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 // Furthermore you can also listen to these changes in state via JavaScript:
 
 Reveal.addEventListener( 'xrslide', function( event ) {
-	// event.active
-    var xrSession = document.querySelector('.webxr-sessions');
-    var xrReality = document.querySelector('.webxr-realities');
+	// // event.active
+    // var xrSession = document.querySelector('.webxr-sessions');
+    // var xrReality = document.querySelector('.webxr-realities');
 
-    if (event.active) {
-        document.body.style.backgroundColor = "transparent";
-        xrSession.style.visibility = "visible";
-        xrReality.style.visibility = "visible";
-    } else {
-        document.body.style.backgroundColor = "black";
-        xrSession.style.visibility = "hidden";
-        xrReality.style.visibility = "hidden";
-    }
+    // if (event.active) {
+    //     document.body.style.backgroundColor = "transparent";
+    //     xrSession.style.visibility = "visible";
+    //     xrReality.style.visibility = "visible";
+    // } else {
+    //     document.body.style.backgroundColor = "black";
+    //     xrSession.style.visibility = "hidden";
+    //     xrReality.style.visibility = "hidden";
+    // }
 } );
 
 Reveal.addEventListener( 'arstuff', function( event ) {

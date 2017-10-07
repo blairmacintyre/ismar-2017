@@ -11,7 +11,7 @@ class ARSimplestExample extends XRExampleBase {
 
         // A message at the bottom of the screen that shows whether a surface has been found
         this._messageEl = document.createElement('div')
-        this.el.appendChild(this._messageEl)
+        //this.el.appendChild(this._messageEl)
         this._messageEl.style.position = 'absolute'
         this._messageEl.style.bottom = '10px'
         this._messageEl.style.left = '10px'
@@ -61,7 +61,7 @@ class ARSimplestExample extends XRExampleBase {
                         console.error('unknown anchor uid', anchorOffset.anchorUID)
                         return
                     }
-                    this._messageEl.innerHTML = 'hit: ' + anchor.coordinates.position.join(', ')
+                    //this._messageEl.innerHTML = 'hit: ' + anchor.coordinates.position.join(', ')
 
                     // Save the XRAnchorOffset and the node so that we can update the node's position based off of the anchor
                     let anchorInfo = {
