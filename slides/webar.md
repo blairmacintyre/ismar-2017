@@ -111,25 +111,6 @@ about the world <br><span class="green"> relative to </SPAN> the display</p>
 <br>
 <p><small>Julian Oliver "Levelhead" 2008</small></p>
 
-
-------
-
-<!-- .slide: data-background-video="resources/videos/Unboring.net-Progressive-Enhancement.mp4" -->
-
-<h2>Decouple from Platform, but Still Leverage Unique Capabilities of Each Platform!</h2>
-<br>
-<br>
-<br>	
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<blockquote style="background: rgba(32, 32, 32, 0.5);">
-    <span><a href="https://unboring.net/workflows/progressive-enhancement/">unboring.net/workflows/progressive-enhancement/</a>
-    </span>
-</blockquote>
     
 ------
 
@@ -190,18 +171,20 @@ about the world <br><span class="green"> relative to </SPAN> the display</p>
 
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-## Can we Mimic WebVR? 
-
-------
-
-<!-- .slide: data-background="resources/textures/sketch-web-arch.png" -->
-
-------
-
-<!-- .slide: data-background="resources/textures/sketch-webvr-arch2.png" -->
-
-------
-
+<div style="background: rgba(32, 32, 32, 0.5);">
+## Mimic / Extend WebVR? 
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!-- .slide: data-background="resources/textures/sketch-webvr-arch-orig.png" -->
 
 ------
@@ -210,7 +193,7 @@ about the world <br><span class="green"> relative to </SPAN> the display</p>
 
 ## Problem: 
 ### AR is more than "VR + video + spatial tracking"
-_and_
+_and more importantly_
 ### MR >= AR + VR
 
 ------
@@ -230,17 +213,7 @@ _and_
 </ul>
 
 <p>http://blairmacintyre.me/2017/05/20/its-not-webar-yet/</p>
+<p>(Gheric Speiginer's PhD work on argon.js and Argon4)</p>
 
 </div>
 
-------
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<h2>WebXR: Expanding WebVR to Support MR</h2>
-<p>Web Platform: WebVR, Servo, WebAssembly, ...</p>
-<p>Native AR Platforms: ARKit, ARCore, Vision SDKs, ...</p>
-<p>MR Requirements: <span class="blue">Augmented and Virtual Realities, Anchors, <br>Geospatial References, Custom Computer Vision</span>.</p>
-<br>
-<br>
-<p>https://github.com/mozilla/webxr-api<br>https://github.com/mozilla/webxr-polyfill <br>(_and more soon_)</p>

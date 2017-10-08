@@ -1,6 +1,5 @@
-------
 
-## Problem: WebGL and three.js still low level 
+## Problem: WebGL (and libraries like three.js) still low level 
 
 <!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
@@ -24,7 +23,7 @@
 - Huge obstacle if doing small prototypes and experiments
 - Boilerplate needs updating with new versions of WebVR, three.js, and browser quirks
 - Encapsulate all of that into one line...
-
+------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
 <div class="captioned-image-row">

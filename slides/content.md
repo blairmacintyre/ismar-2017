@@ -1,6 +1,6 @@
 <!-- .slide: data-background="resources/textures/girl-painting.jpg" data-transition="slide-in none-out"  -->
 
-# what does it mean for everyone to be able to have a voice?
+# what does it mean for everyone to have a voice?
 
 ------
 <!-- .slide: data-background="resources/textures/children-painting-wall.jpg" data-transition="none-in slide-out"  -->
@@ -22,7 +22,7 @@
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-## is this the web We dream of? 
+## is this the Metaverse We dream of? 
 
 ## is this magical?
 
