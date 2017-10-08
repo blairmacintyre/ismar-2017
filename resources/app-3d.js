@@ -372,8 +372,9 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 
         if (window.pageApp) {
             window.pageApp.doProcessing = (states.indexOf("3deffects") >= 0)
-            window.pageApp.boomBox.visible = (states.indexOf("boombox") >= 0)
-            
+            if (window.pageApp.boomBox) {
+                window.pageApp.boomBox.visible = (states.indexOf("boombox") >= 0)
+            }        
             if (states.indexOf("arslide") >= 0) {
                 window.pageApp.arScene();
                 // delete window.pageApp
