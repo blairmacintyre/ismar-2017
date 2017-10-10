@@ -1,4 +1,7 @@
-# WebXR polyfill with examples
+# NOTICE.  The files in this directory are a snapshot of the WebXR repository at https://github.com/mozilla/webxr-polyfill on Oct 8, 2017.  I did not do a gitsubmodule as the webxr-polyfill is changing rapidly, and this presentation depends on that version.
+
+
+## WebXR polyfill with examples
 
 This repository holds a polyfill and example applications for a proposed API for building AR and VR applications in web browsers.
 
