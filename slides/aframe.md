@@ -50,7 +50,7 @@
   </a-scene>
 </html>
 ```
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch" style="background: rgba(32, 32, 32, 0.5);"-->
 
 <!-- NOTES -->
 - Just HTML
@@ -78,7 +78,7 @@
   </a-scene>
 </html>
 ```
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch" style="background: rgba(32, 32, 32, 0.5);" -->
 
 <!-- NOTES -->
 - Basic 3D primitives with Custom Elements
@@ -152,7 +152,7 @@
 ```html
 <a-entity>
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px; background: rgba(32, 32, 32, 0.5);"-->
 
 <!-- NOTES -->
 - Start with an `<a-entity>`
@@ -170,7 +170,7 @@
   geometry="primitive: sphere; radius: 1.5"
   material="color: #343434; roughness: 0.4; sphericalEnvMap: #texture">
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px;  background: rgba(32, 32, 32, 0.5);"-->
 
 <!-- NOTES -->
 - Syntax similar to CSS styles
@@ -189,7 +189,7 @@
   material="color: #343434; roughness: 0.4; sphericalEnvMap: #texture"
   position="-1 2 4" rotation="45 0 90" scale="2 2 2">
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px;  background: rgba(32, 32, 32, 0.5);"-->
 
 ---
 
@@ -205,7 +205,7 @@
   animation="property: rotation; loop: true; to: 0 360 0"
   movement-pattern="type: spline; speed: 4">
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px;  background: rgba(32, 32, 32, 0.5);"-->
 
 ---
 
@@ -220,7 +220,7 @@
   animation="property: rotation; loop: true; to: 0 360 0"
   movement-pattern="type: spline; speed: 4">
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px;  background: rgba(32, 32, 32, 0.5);"-->
 
 ---
 
@@ -236,7 +236,7 @@
   movement-pattern="type: attack; target: #player"
   explode="on: hit">
 ```
-<!-- .element: class="stretch" style="font-size: 24px;"-->
+<!-- .element: class="stretch" style="font-size: 24px;  background: rgba(32, 32, 32, 0.5);"-->
 
 
 ------

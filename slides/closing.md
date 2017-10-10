@@ -9,7 +9,7 @@
 <br>
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-    <h2>... if we create tools to let everyone create!</h2>
+    <h2>... if we develop the tools and tech to let everyone use it!</h2>
 </blockquote>
 
 ------
