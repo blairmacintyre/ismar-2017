@@ -22,12 +22,12 @@ class PageApp extends XRExampleBase {
         ]
 
         const loader = new THREE.BinaryLoader()
-        loader.load('/resources/webxr/examples/models/female02/Female02_bin.js', geometry => {
+        loader.load('./resources/webxr/examples/models/female02/Female02_bin.js', geometry => {
             this.femaleGeometry = geometry
             this.geometries.push(this.femaleGeometry)
             this.floorGroup.add(this.createSceneGraphNode())
         })
-        loader.load('/resources/webxr/examples/models/male02/Male02_bin.js', geometry => {
+        loader.load('./resources/webxr/examples/models/male02/Male02_bin.js', geometry => {
             this.maleGeometry = geometry
             this.geometries.push(this.maleGeometry)
         })
@@ -212,7 +212,7 @@ class PageApp extends XRExampleBase {
         this.scene.background = null;
         
         // Create the environment map
-        const path = '/resources/webxr/examples/textures/Park2/'
+        const path = './resources/webxr/examples/textures/Park2/'
         const format = '.jpg'
         this.envMap = new THREE.CubeTextureLoader().load([
             path + 'posx' + format, path + 'negx' + format,
@@ -223,7 +223,7 @@ class PageApp extends XRExampleBase {
         //this.scene.background = this.envMap
 
         // Add the boom box
-        loadGLTF('/resources/webxr/examples/models/BoomBox/glTF-pbrSpecularGlossiness/BoomBox.gltf').then(gltf => {
+        loadGLTF('./resources/webxr/examples/models/BoomBox/glTF-pbrSpecularGlossiness/BoomBox.gltf').then(gltf => {
             gltf.scene.scale.set(15, 15, 15)
             gltf.scene.position.set(0, 1, -0.6)
             gltf.scene.quaternion.setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.PI)
