@@ -16,7 +16,8 @@
 ------
 <!-- .slide: data-background="resources/textures/iss-ar.png" -->
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-<h2>Web Ecosystem is Rich and Diverse <br>Many 2D Systems built with browser-based UIs</p>
+<h2>Many 2D Systems built with browser-based UIs</h2>
+ISS Maintenance using PRIDE w/ Traclabs
 </blockquote>
 <br>
 <br>
@@ -28,7 +29,7 @@
 <br>
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-    <span><em>ISS Maintenance using PRIDE w/ Traclabs</em></span>
+    <span><em></em></span>
 </blockquote>
 
 ------
@@ -98,8 +99,6 @@ An open virtual reality platform with the advantages of **the Web**
 <br><br>
 <br>
 
-<br>
-<br>
 <br>
 <br>
 <br>
